@@ -1390,4 +1390,172 @@
 // document.write("Secure Password Generator :- <br>");
 // document.write('Your Secure Password:', password);
 
+
+// for(let i =1 ; i <=2 ; i++){
+//     console.log(i);
+// }
+
+// //Local Variable
+// function variable(){
+//     let local = "I'm Local";
+//     document.write(local);
+// }
+// variable();
+// //Global Varible
+// let global = "I'm Global";
+// function variables(){
+//     document.write(global);
+// }
+// variables();
+// document.write(global);
+
+// switch (new Date().getDay()) { //5 switch()
+//         case 0:
+//         document.write("Sunday");
+//         break;
+//         case 1:
+//             document.write("Monday");
+//         break;
+//         case 2:
+//             document.write("Tuesday");
+//         break;
+//         case 3:
+//             document.write("Wednesday");
+//         break;
+
+//         case 4:
+//             document.write("Thursday");
+//         break;
+//        case 5:
+//         document.write("Friday");
+//         break;
+//         case 6:
+//             document.write("Saturday");
+//         break;
+//     default:
+//         document.write("Inavlid day");
+//         break;
+// }
+// let favfood = prompt("Enter your Choice \n FastFood \n Fruits \n Veggies");
+
+// switch (favfood) {
+//         case "fastfood":
+//         document.write("Aur  Khai'n Janab");
+//         break;
+//         case "fruits":
+//             document.write("Acha Khai'n Janab");
+//         break;
+//         case "veggies":
+//             document.write("Acha(fast food)  Khai'n Janab");
+//         break;
+//     default:
+//         document.write("eshi chizai nhi khatai h")
+//         break;
+// }
+
+// let name = "sheikh hafsa nadeem Javeria nadeem";
+// // console.log(name.lastIndexOf("nadeem"));
+// // console.log(name.charAt(0));
+// console.log(name.replace(/nadeem/g , ""));
+
+// let num1 = parseInt(12) ;
+// let num2 = Number("5");
+// console.log("the sum is " , num1+num2);
+
+// function myFunction(){
+//     console.log("SMIT");
+// }
+// myFunction();
+// myFunction();
+// myFunction();
+// myFunction();
+// myFunction();
+
+
+// function myFunction(num) {
+//   for(let i=1; i<=10; i++){
+//     document.write(num , "X" , i , "=" , num*i , "<br>");
+//   }
+// }
+// myFunction(5);
+// document.write("<BR>");
+// // myFunction(67);
+// let global = "I'm Global";
+// function variable() {
+//     document.write(global); 
+// }
+// variable();
+// document.write(global);
+
+// let date1 =new Date("2022-05-15T03:00:00z");
+// console.log(date1.toLocaleString());
+
+// console.log("2" * "4");
+// let greet1 ="hello";
+// function greet (name){
+//     document.write(greet1 + " " + name);
+// }
+// // greet1 = "Hi";
+// greet("alice");
+
+// let date1 = new Date("2022-05-15T03:00:00Z");
+// let date2 = new Date("2022-05-15T04:00:00Z");
+// console.log(date1<date2);
+// var x = 10;
+// function myFunc ( ) {
+//     console.log(x);
+//     var x =20;
+    
+// }
+// myFunc();
+// var x =5;
+// switch (x) {
+//     case "5":
+//         console.log("x is '5"');
+//         break;
+//         case 5:
+//             console.log("x is 5");
+//         break;
+//     default:
+//         console.log("x is not 5");
+//         break;
+// }
+
+// function average (a , b){
+//     return a+b/2;
+// }
+// console.log(average(2,1));
+// let x=9;
+// while (x <= 10){
+//   document.write(x ," hafsa ");
+//     x++;
+// }
+
+// for(let i=0;i<=10;i++){
+//     document.write(i , " hafsa");
+// }
+
+// for(let i=0; i<=3; i++){
+//     alert(i);
+// }
+
+// let i = 0;
+// while (i<=3) { //2
+//     i++;//1 , 3
+//    document.write(i);//1 , 3
+//     i++;//2 , 4
+// }
+
+// let i = 1;
+// do {
+//     document.write(" hafsa ");
+//     i++;
+// } while (i>=4);
+// let i =1;
+// while (true) {
+//     document.write("hafsa");
+// i++;
+// }
+
+
  
